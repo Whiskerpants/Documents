@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "@react-native-async-storage/async-storage": "^2.2.0",
+    "@react-native-community/netinfo": "^11.4.1",
+    "expo-location": "^18.1.5",
+    "react-native-maps": "^1.24.3"
+  }
+}

@@ -1,0 +1,257 @@
+{
+  "welcome": "¡Bienvenido a RanchManager!",
+  "login": "Iniciar sesión",
+  "logout": "Cerrar sesión",
+  "dashboard": {
+    "title": "Tablero",
+    "subtitle": "Vista general de su operación ganadera",
+    "metrics": {
+      "totalCattle": "Total de Ganado",
+      "activeCattle": "Ganado Activo",
+      "sickCattle": "Ganado Enfermo",
+      "underObservation": "Bajo Observación"
+    },
+    "actions": {
+      "addCattle": "Agregar Ganado",
+      "healthCheck": "Revisión de Salud",
+      "recordWeight": "Registrar Peso"
+    },
+    "healthAlerts": "Alertas de Salud",
+    "recentActivities": "Actividades Recientes",
+    "seeAll": "Ver Todo"
+  },
+  "settings": "Configuración",
+  "language": "Idioma",
+  "english": "Inglés",
+  "spanish": "Español",
+  "cattle": {
+    "details": {
+      "title": "Detalles del Ganado",
+      "tagNumber": "Número de Etiqueta",
+      "name": "Nombre",
+      "breed": "Raza",
+      "gender": "Género",
+      "weight": "Peso",
+      "age": "Edad",
+      "healthStatus": "Estado de Salud",
+      "location": "Ubicación",
+      "notes": "Notas",
+      "edit": "Editar",
+      "delete": "Eliminar",
+      "deleteConfirmation": "¿Está seguro de que desea eliminar este registro de ganado?",
+      "confirm": "Confirmar",
+      "cancel": "Cancelar",
+      "loading": "Cargando...",
+      "male": "Macho",
+      "female": "Hembra",
+      "healthy": "Saludable",
+      "sick": "Enfermo",
+      "underObservation": "Bajo Observación"
+    },
+    "addEdit": {
+      "addTitle": "Agregar Nuevo Ganado",
+      "editTitle": "Editar Ganado",
+      "tagNumber": "Número de Etiqueta",
+      "name": "Nombre",
+      "breed": "Raza",
+      "gender": "Género",
+      "birthDate": "Fecha de Nacimiento",
+      "weight": "Peso",
+      "status": "Estado",
+      "location": "Ubicación",
+      "notes": "Notas",
+      "photo": "Foto",
+      "save": "Guardar",
+      "cancel": "Cancelar",
+      "loading": "Guardando...",
+      "validation": {
+        "required": "{{field}} es requerido",
+        "invalidNumber": "Por favor ingrese un número válido",
+        "invalidDate": "Por favor ingrese una fecha válida",
+        "invalidWeight": "El peso debe ser mayor que 0"
+      },
+      "statusOptions": {
+        "active": "Activo",
+        "inactive": "Inactivo",
+        "sold": "Vendido",
+        "deceased": "Fallecido"
+      },
+      "breedOptions": {
+        "angus": "Angus",
+        "hereford": "Hereford",
+        "brahman": "Brahman",
+        "simmental": "Simmental",
+        "charolais": "Charolais",
+        "other": "Otro"
+      },
+      "weightUnit": {
+        "kg": "Kilogramos",
+        "lb": "Libras"
+      },
+      "photoOptions": {
+        "takePhoto": "Tomar Foto",
+        "choosePhoto": "Elegir de la Galería",
+        "removePhoto": "Eliminar Foto"
+      },
+      "offline": {
+        "saving": "Guardando cambios sin conexión...",
+        "syncing": "Sincronizando con el servidor...",
+        "error": "Error al guardar los cambios"
+      }
+    }
+  },
+  "health": {
+    "title": "Gestión de Salud",
+    "subtitle": "Seguimiento y gestión de la salud del ganado",
+    "types": {
+      "vaccination": "Vacunación",
+      "treatment": "Tratamiento",
+      "illness": "Enfermedad",
+      "injury": "Lesión",
+      "checkup": "Revisión",
+      "other": "Otro"
+    },
+    "severity": {
+      "low": "Baja",
+      "medium": "Media",
+      "high": "Alta",
+      "critical": "Crítica"
+    },
+    "filters": {
+      "title": "Filtros",
+      "search": "Buscar",
+      "searchPlaceholder": "Buscar por descripción o ID del ganado",
+      "dateRange": "Rango de Fechas",
+      "startDate": "Fecha de Inicio",
+      "endDate": "Fecha Final",
+      "types": "Tipos de Evento",
+      "severities": "Niveles de Severidad",
+      "status": "Estado",
+      "all": "Todos los Registros",
+      "resolved": "Resuelto",
+      "unresolved": "No Resuelto",
+      "clear": "Limpiar Filtros",
+      "apply": "Aplicar Filtros"
+    },
+    "list": {
+      "title": "Registros de Salud",
+      "empty": "No se encontraron registros de salud",
+      "addRecord": "Agregar Registro de Salud",
+      "sortBy": "Ordenar por",
+      "sortOptions": {
+        "date": "Fecha",
+        "severity": "Severidad",
+        "type": "Tipo"
+      }
+    },
+    "detail": {
+      "title": "Detalles del Registro de Salud",
+      "edit": "Editar Registro",
+      "delete": "Eliminar Registro",
+      "deleteConfirm": "¿Está seguro de que desea eliminar este registro?",
+      "cattleInfo": "Información del Ganado",
+      "eventInfo": "Información del Evento",
+      "treatment": "Tratamiento",
+      "medication": "Medicación",
+      "attachments": "Adjuntos",
+      "notes": "Notas",
+      "followUp": "Seguimiento",
+      "resolved": "Resuelto",
+      "unresolved": "No Resuelto",
+      "markResolved": "Marcar como Resuelto",
+      "markUnresolved": "Marcar como No Resuelto"
+    },
+    "form": {
+      "title": {
+        "add": "Agregar Registro de Salud",
+        "edit": "Editar Registro de Salud"
+      },
+      "fields": {
+        "cattle": "Ganado",
+        "date": "Fecha",
+        "type": "Tipo de Evento",
+        "description": "Descripción",
+        "severity": "Severidad",
+        "treatment": "Tratamiento",
+        "followUpDate": "Fecha de Seguimiento",
+        "attachments": "Adjuntos",
+        "notes": "Notas",
+        "medication": {
+          "title": "Medicación",
+          "name": "Nombre",
+          "dosage": "Dosis",
+          "frequency": "Frecuencia",
+          "duration": "Duración"
+        },
+        "veterinarian": {
+          "title": "Veterinario",
+          "name": "Nombre",
+          "contact": "Contacto"
+        }
+      },
+      "buttons": {
+        "save": "Guardar",
+        "cancel": "Cancelar",
+        "addAttachment": "Agregar Adjunto",
+        "addMedication": "Agregar Medicación"
+      },
+      "validation": {
+        "required": "Este campo es obligatorio",
+        "invalidDate": "Fecha inválida",
+        "futureDate": "La fecha no puede ser futura",
+        "invalidFollowUp": "La fecha de seguimiento debe ser posterior a la fecha del evento"
+      }
+    },
+    "errors": {
+      "fetchFailed": "Error al obtener los registros de salud",
+      "createFailed": "Error al crear el registro de salud",
+      "updateFailed": "Error al actualizar el registro de salud",
+      "deleteFailed": "Error al eliminar el registro de salud",
+      "offline": "Está sin conexión. Algunas funciones pueden estar limitadas."
+    }
+  },
+  "grazing": {
+    "title": "Gestión de Pastoreo",
+    "subtitle": "Administrar pastizales y planes de pastoreo",
+    "status": {
+      "available": "Disponible",
+      "active": "Activo",
+      "resting": "Descansando",
+      "maintenance": "Mantenimiento"
+    },
+    "filters": {
+      "title": "Filtros",
+      "search": "Buscar",
+      "searchPlaceholder": "Buscar pastizales...",
+      "status": "Estado",
+      "size": "Tamaño",
+      "minSize": "Tamaño mínimo",
+      "maxSize": "Tamaño máximo",
+      "forageTypes": "Tipos de Forraje",
+      "availableOnly": "Solo Disponibles",
+      "clear": "Limpiar",
+      "apply": "Aplicar"
+    },
+    "noForageTypes": "Sin tipos de forraje",
+    "noWaterSources": "Sin fuentes de agua",
+    "currentConditions": "Condiciones Actuales",
+    "forageHeight": "Altura del Forraje",
+    "forageDensity": "Densidad del Forraje",
+    "soilMoisture": "Humedad del Suelo",
+    "lastGrazing": "Último Pastoreo",
+    "size": "{{size}} hectáreas",
+    "plan": {
+      "status": {
+        "draft": "Borrador",
+        "active": "Activo",
+        "completed": "Completado",
+        "cancelled": "Cancelado"
+      },
+      "duration": "{{days}} días",
+      "cattleCount": "{{count}} ganado",
+      "notes": "Notas",
+      "rotations": "Rotaciones",
+      "rotation": "Rotación {{number}}: {{pasture}} ({{days}} días)"
+    }
+  }
+} 

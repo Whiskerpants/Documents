@@ -1,0 +1,257 @@
+{
+  "welcome": "Welcome to RanchManager!",
+  "login": "Login",
+  "logout": "Logout",
+  "dashboard": {
+    "title": "Dashboard",
+    "subtitle": "Overview of your cattle operation",
+    "metrics": {
+      "totalCattle": "Total Cattle",
+      "activeCattle": "Active Cattle",
+      "sickCattle": "Sick Cattle",
+      "underObservation": "Under Observation"
+    },
+    "actions": {
+      "addCattle": "Add Cattle",
+      "healthCheck": "Health Check",
+      "recordWeight": "Record Weight"
+    },
+    "healthAlerts": "Health Alerts",
+    "recentActivities": "Recent Activities",
+    "seeAll": "See All"
+  },
+  "settings": "Settings",
+  "language": "Language",
+  "english": "English",
+  "spanish": "Spanish",
+  "cattle": {
+    "details": {
+      "title": "Cattle Details",
+      "tagNumber": "Tag Number",
+      "name": "Name",
+      "breed": "Breed",
+      "gender": "Gender",
+      "weight": "Weight",
+      "age": "Age",
+      "healthStatus": "Health Status",
+      "location": "Location",
+      "notes": "Notes",
+      "edit": "Edit",
+      "delete": "Delete",
+      "deleteConfirmation": "Are you sure you want to delete this cattle record?",
+      "confirm": "Confirm",
+      "cancel": "Cancel",
+      "loading": "Loading...",
+      "male": "Male",
+      "female": "Female",
+      "healthy": "Healthy",
+      "sick": "Sick",
+      "underObservation": "Under Observation"
+    },
+    "addEdit": {
+      "addTitle": "Add New Cattle",
+      "editTitle": "Edit Cattle",
+      "tagNumber": "Tag Number",
+      "name": "Name",
+      "breed": "Breed",
+      "gender": "Gender",
+      "birthDate": "Birth Date",
+      "weight": "Weight",
+      "status": "Status",
+      "location": "Location",
+      "notes": "Notes",
+      "photo": "Photo",
+      "save": "Save",
+      "cancel": "Cancel",
+      "loading": "Saving...",
+      "validation": {
+        "required": "{{field}} is required",
+        "invalidNumber": "Please enter a valid number",
+        "invalidDate": "Please enter a valid date",
+        "invalidWeight": "Weight must be greater than 0"
+      },
+      "statusOptions": {
+        "active": "Active",
+        "inactive": "Inactive",
+        "sold": "Sold",
+        "deceased": "Deceased"
+      },
+      "breedOptions": {
+        "angus": "Angus",
+        "hereford": "Hereford",
+        "brahman": "Brahman",
+        "simmental": "Simmental",
+        "charolais": "Charolais",
+        "other": "Other"
+      },
+      "weightUnit": {
+        "kg": "Kilograms",
+        "lb": "Pounds"
+      },
+      "photoOptions": {
+        "takePhoto": "Take Photo",
+        "choosePhoto": "Choose from Gallery",
+        "removePhoto": "Remove Photo"
+      },
+      "offline": {
+        "saving": "Saving changes offline...",
+        "syncing": "Syncing with server...",
+        "error": "Error saving changes"
+      }
+    }
+  },
+  "health": {
+    "title": "Health Management",
+    "subtitle": "Track and manage cattle health",
+    "types": {
+      "vaccination": "Vaccination",
+      "treatment": "Treatment",
+      "illness": "Illness",
+      "injury": "Injury",
+      "checkup": "Checkup",
+      "other": "Other"
+    },
+    "severity": {
+      "low": "Low",
+      "medium": "Medium",
+      "high": "High",
+      "critical": "Critical"
+    },
+    "filters": {
+      "title": "Filters",
+      "search": "Search",
+      "searchPlaceholder": "Search by description or cattle ID",
+      "dateRange": "Date Range",
+      "startDate": "Start Date",
+      "endDate": "End Date",
+      "types": "Event Types",
+      "severities": "Severity Levels",
+      "status": "Status",
+      "all": "All Records",
+      "resolved": "Resolved",
+      "unresolved": "Unresolved",
+      "clear": "Clear Filters",
+      "apply": "Apply Filters"
+    },
+    "list": {
+      "title": "Health Records",
+      "empty": "No health records found",
+      "addRecord": "Add Health Record",
+      "sortBy": "Sort by",
+      "sortOptions": {
+        "date": "Date",
+        "severity": "Severity",
+        "type": "Type"
+      }
+    },
+    "detail": {
+      "title": "Health Record Details",
+      "edit": "Edit Record",
+      "delete": "Delete Record",
+      "deleteConfirm": "Are you sure you want to delete this record?",
+      "cattleInfo": "Cattle Information",
+      "eventInfo": "Event Information",
+      "treatment": "Treatment",
+      "medication": "Medication",
+      "attachments": "Attachments",
+      "notes": "Notes",
+      "followUp": "Follow-up",
+      "resolved": "Resolved",
+      "unresolved": "Unresolved",
+      "markResolved": "Mark as Resolved",
+      "markUnresolved": "Mark as Unresolved"
+    },
+    "form": {
+      "title": {
+        "add": "Add Health Record",
+        "edit": "Edit Health Record"
+      },
+      "fields": {
+        "cattle": "Cattle",
+        "date": "Date",
+        "type": "Event Type",
+        "description": "Description",
+        "severity": "Severity",
+        "treatment": "Treatment",
+        "followUpDate": "Follow-up Date",
+        "attachments": "Attachments",
+        "notes": "Notes",
+        "medication": {
+          "title": "Medication",
+          "name": "Name",
+          "dosage": "Dosage",
+          "frequency": "Frequency",
+          "duration": "Duration"
+        },
+        "veterinarian": {
+          "title": "Veterinarian",
+          "name": "Name",
+          "contact": "Contact"
+        }
+      },
+      "buttons": {
+        "save": "Save",
+        "cancel": "Cancel",
+        "addAttachment": "Add Attachment",
+        "addMedication": "Add Medication"
+      },
+      "validation": {
+        "required": "This field is required",
+        "invalidDate": "Invalid date",
+        "futureDate": "Date cannot be in the future",
+        "invalidFollowUp": "Follow-up date must be after event date"
+      }
+    },
+    "errors": {
+      "fetchFailed": "Failed to fetch health records",
+      "createFailed": "Failed to create health record",
+      "updateFailed": "Failed to update health record",
+      "deleteFailed": "Failed to delete health record",
+      "offline": "You are offline. Some features may be limited."
+    }
+  },
+  "grazing": {
+    "title": "Grazing Management",
+    "subtitle": "Manage pastures and grazing plans",
+    "status": {
+      "available": "Available",
+      "active": "Active",
+      "resting": "Resting",
+      "maintenance": "Maintenance"
+    },
+    "filters": {
+      "title": "Filters",
+      "search": "Search",
+      "searchPlaceholder": "Search pastures...",
+      "status": "Status",
+      "size": "Size",
+      "minSize": "Min size",
+      "maxSize": "Max size",
+      "forageTypes": "Forage Types",
+      "availableOnly": "Available Only",
+      "clear": "Clear",
+      "apply": "Apply"
+    },
+    "noForageTypes": "No forage types",
+    "noWaterSources": "No water sources",
+    "currentConditions": "Current Conditions",
+    "forageHeight": "Forage Height",
+    "forageDensity": "Forage Density",
+    "soilMoisture": "Soil Moisture",
+    "lastGrazing": "Last Grazing",
+    "size": "{{size}} acres",
+    "plan": {
+      "status": {
+        "draft": "Draft",
+        "active": "Active",
+        "completed": "Completed",
+        "cancelled": "Cancelled"
+      },
+      "duration": "{{days}} days",
+      "cattleCount": "{{count}} cattle",
+      "notes": "Notes",
+      "rotations": "Rotations",
+      "rotation": "Rotation {{number}}: {{pasture}} ({{days}} days)"
+    }
+  }
+} 
